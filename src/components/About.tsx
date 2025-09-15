@@ -7,7 +7,7 @@ const About = () => {
     {
       title: 'Languages',
       icon: Code,
-      skills: ['Python', 'C++', 'C', 'Java', 'HTML', 'CSS', 'JavaScript', 'MATLAB', 'Verilog', 'Assembly (RISC-V)'],
+      skills: ['Python', 'C++', 'C', 'Java', 'HTML', 'CSS', 'TypeScript', 'JavaScript', 'MATLAB', 'Verilog', 'Assembly (RISC-V)'],
       color: 'text-neon-blue',
       glowClass: 'hover:shadow-neon'
     },

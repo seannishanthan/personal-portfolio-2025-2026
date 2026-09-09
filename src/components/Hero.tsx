@@ -99,7 +99,7 @@ const Hero = () => {
 
           {/* Description */}
           <p className="text-lg md:text-xl text-muted-foreground mb-12 max-w-2xl mx-auto animate-fade-in">
-            Third-Year Computer Engineering student at the University of Toronto passionate about creating 
+            Computer Engineering student at the University of Toronto passionate about creating 
             innovative tech-based solutions.
           </p>
 

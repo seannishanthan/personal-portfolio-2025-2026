@@ -5,6 +5,17 @@ import { Badge } from '@/components/ui/badge';
 const Experience = () => {
   const experiences = [
     {
+      title: 'Systems Software Engineering Intern',
+      company: 'Tenstorrent',
+      period: 'May 2026 - Present',
+      type: 'Internship',
+      icon: Building,
+      description: 'Developing ASIC debug infrastructure and board bring-up framework to enable post-silicon bring-up.',
+      skills: ['Python', 'C', 'C++', 'I2C', 'SPI', 'Agent Skills'],
+      color: 'text-neon-blue',
+      glowClass: 'hover:shadow-neon'
+    },
+    {
       title: 'Machine Learning Research Intern',
       company: 'Acceleration Consortium (AC) & Frank Gu Lab',
       period: 'May 2025 - August 2025',

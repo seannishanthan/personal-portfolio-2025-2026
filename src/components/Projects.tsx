@@ -3,6 +3,7 @@ import { ExternalLink, Github, Code, Globe, Brain, ShoppingCart, Gamepad2 } from
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
+import ucfPredsQualSquareImg from '@/assets/ucf_preds_qual_square.png';
 import pushupTrackerImg from '@/assets/pushuptracker.png';
 import turfWarImg from '@/assets/turfwar.png';
 import metroFlowImg from '@/assets/metroflow.png';
@@ -12,6 +13,17 @@ const Projects = () => {
   const [filter, setFilter] = useState('All');
 
   const projects = [
+    {
+      title: 'Video-Based Sports Action Recognition',
+      description: 'CNN-LSTM video classification model that distinguishes between 12 classes of humans performing different sports actions.',
+      image: ucfPredsQualSquareImg,
+      tags: ['Python', 'PyTorch', 'NumPy', 'Matplotlib'],
+      categories: ['Software', 'Machine Learning'],
+      github: 'https://github.com/seannishanthan/human-action-recognition',
+      demo: null,
+      icon: Code,
+      color: 'text-primary'
+    },
     {
       title: 'Pushup Tracker',
       description: 'Full-stack MERN application that tracks pushups in real-time via MediaPipe and provides personalized performance insights.',
